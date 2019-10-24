@@ -7,14 +7,32 @@ Welcome to OpenNRE's documentation!
 ===================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Get Started
+   :glob:
 
+   get_started/introduction
+   get_started/install
+   get_started/benchmark
+   get_started/pretrain
 
+.. toctree::
+   :maxdepth: 1
+   :caption: User Guide
+   :glob:
 
-Indices and tables
-==================
+   user_guide/*
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 1
+   :caption: Developer Guide
+   :glob:
+   
+   developer_guide/*
+
+.. toctree::
+   :maxdepth: 1
+   :caption: FAQ
+   :glob:
+
+   faq/*
