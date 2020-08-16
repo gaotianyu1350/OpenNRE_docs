@@ -25,13 +25,6 @@ Welcome to OpenNRE's documentation!
 
 .. toctree::
    :maxdepth: 1
-   :caption: Developer Guide
-   :glob:
-   
-   developer_guide/*
-
-.. toctree::
-   :maxdepth: 1
    :caption: FAQ
    :glob:
 
