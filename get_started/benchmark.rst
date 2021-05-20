@@ -31,13 +31,17 @@ This setting comes with **distant supervision**. Annotating large-scale relation
 
 Though making large-scale training data available, distant supervision inevitably brings noise. For the denoising purpose, multi-instance multi-label setting was proposed. Instead of predicting relations for each sentence, in the multi-instance multi-label setting, models need to predict labels for each entity pair (which may have many sentences). Sentences share the same entity pair are called a "bag".
 
-The most used dataset for distant supervision is **NYT10** (`paper <https://link.springer.com/content/pdf/10.1007%2F978-3-642-15939-8_10.pdf>`_ / `website <http://iesl.cs.umass.edu/riedel/ecml/>`_). Statistics of NYT10 are as follows:
+The most used dataset for distant supervision is **NYT10** (`paper <https://link.springer.com/content/pdf/10.1007%2F978-3-642-15939-8_10.pdf>`_ / `website <http://iesl.cs.umass.edu/riedel/ecml/>`_). We also provide **NYT10m** and **Wiki20m**, two distant supervised datasets with **manually** annotated test sets (paper: TBD).
 
 ====================  =======  =====================
 Dataset               #class   #instance
 ====================  =======  =====================
-NYT10                 53       694,491 (include NA)
+NYT10                 53       694,491 
+NYT10m                25       474,059
+Wiki20m               81       901,314
 ====================  =======  =====================
+
+
 
 Document-Level Relation Extraction
 ------------------------------------
